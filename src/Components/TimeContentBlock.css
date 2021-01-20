@@ -1,0 +1,14 @@
+.row.top-row {
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 10px;
+   font-size: 10px;
+   font-weight: bold;
+}
+.top-menu {
+   display: flex;
+   align-items: center;
+}
+.top-menu span {
+   margin: 0 2px;
+}

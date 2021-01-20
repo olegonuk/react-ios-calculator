@@ -1,0 +1,46 @@
+.block-calc-val {
+   width: 85%;
+   height: 150px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   overflow: hidden;
+   font-size: 55px;
+}
+
+.btn-calc {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   font-size: 22px;
+   font-weight: 400;
+   background: #505050;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.btn-calc.btn-zero {
+   width: 110px;
+   border-radius: 25px;
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 20px;
+}
+.btn-calc.gray {
+   background: #d4d4d2;
+}
+.btn-calc.gray:active {
+   background: #fff;
+   color: #000;
+}
+.btn-calc.yellow {
+   background: #ff9500;
+}
+.btn-calc.yellow:active {
+   background: #fff;
+   color: #ff9500;
+}
+.btn-calc:active {
+   background: #7d7d7d;
+}

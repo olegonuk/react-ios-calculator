@@ -1,0 +1,8 @@
+.bottom-row {
+   width: 100px;
+   height: 4px;
+   background: #fff;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
